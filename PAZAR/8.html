@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript ile Çalışmak </title>
+    <style>
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: white;
+            color: rgb(191, 127, 38);
+
+        }
+
+    </style>
+</head>
+<body>
+    <h2 style="background-color: blueviolet;text-align:center;padding: 20px;border-radius: 30px; ">java scirpt ile çalışmak</h2>
+    <button style="border-radius: 30px;margin-left:50% ;color: rgb(230, 143, 12);background-color: chartreuse;" onclick="document.getElementById('demo1').innerHTML='aşagıda tarih bilgisi var'" type="button">TARİH VE ZAMANI GÖR !</button>
+    <p style="border-radius: 30px;background-color: aqua;" id="demo1">tarih ve zaman</p>
+    <p style="border-radius: 30px;background-color: blue;" id="demo2">data</p>
+    <p style="border-radius: 30px;background-color: bisque;" id="demo3">data</p>
+    <!-- id isimleri benzersiz olsun class isimleride birden fazla
+    özelliği attribute yakalama için kullanılır -->
+
+    
+
+    <script>
+        document.getElementById("demo2").innerHTML=Date()
+    </script>
+
+</body>
+</html>
